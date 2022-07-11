@@ -1,0 +1,23 @@
+name: build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Logseq Publish 🚩
+        uses: pengx17/logseq-publish@main
+        with:
+          version: master
+      - name: add a nojekyll file
+        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: www
+          clean: true
+          single-commit: true
