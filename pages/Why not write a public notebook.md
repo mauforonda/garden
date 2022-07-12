@@ -1,0 +1,4 @@
+- Writing for yourself is not like writing for others.
+	- Writing for others might feel like performance. You don't want to be caught up saying something false or stupid. If you think too much about who might see this, in what context or for what purpose, you will probably never write anything anymore. How to navigate this tension is not at all clear.
+	- Unfinished texts will probably not be a good reading experience for most people. Knowledge gardens are usually disappointing, the writing style is clumsy and they're filled with notes about the tools the author used to write in the first place. How to make writing fast and pleasant for myself while remaining readable for others is not clear either.
+	- The obvious (but temporary) solution is to avoid thinking about others as much as possible. This implies that I should at least avoid sharing links to this notebook for a while, until I have a solid habit and a big stack of notes I can hide myself into.
