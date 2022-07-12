@@ -1,6 +1,9 @@
 [{:block/name "a",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "arguments for open data",
+  :block/created-at 1657579657839,
+  :block/updated-at 1657579657839}
  {:block/name "b",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
@@ -12,7 +15,7 @@
   :block/updated-at 1657563989307}
  {:block/name "contents",
   :block/created-at 1657563989307,
-  :block/updated-at 1657563989307}
+  :block/updated-at 1657580372821}
  {:block/name "doing",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
@@ -27,13 +30,22 @@
   :block/updated-at 1657563989307}
  {:block/name "jul 11th, 2022",
   :block/created-at 1657562117223,
-  :block/updated-at 1657573285206}
+  :block/updated-at 1657579964737}
+ {:block/name "jul 12th, 2022",
+  :block/created-at 1657598401636,
+  :block/updated-at 1657631562744}
  {:block/name "later",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "now",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "the lifespan of a notebook.",
+  :block/created-at 1657575573126,
+  :block/updated-at 1657575573548}
+ {:block/name "thinking in public",
+  :block/created-at 1657577382601,
+  :block/updated-at 1657577382601}
  {:block/name "todo",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
@@ -41,5 +53,11 @@
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "waiting",
-  :block/created-at 1657563989307, 
-  :block/updated-at 1657563989307}]
+  :block/created-at 1657563989307,
+  :block/updated-at 1657563989307}
+ {:block/name "why not write a public notebook",
+  :block/created-at 1657595853059,
+  :block/updated-at 1657596103419}
+ {:block/name "why write a public notebook",
+  :block/created-at 1657575791387, 
+  :block/updated-at 1657586998180}]
