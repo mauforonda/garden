@@ -1,1 +1,1 @@
--
+- Some ideas about what this is supposed to be: [[Why write a public notebook]]

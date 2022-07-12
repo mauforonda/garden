@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
-@import url("https://cdn.jsdelivr.net/npm/typeface-et-book@0.0.2/et-book/et-book.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @font-face {
   font-family: "Only Emoji";
   src: local("Apple Color Emoji"), local("Android Emoji"), local("Segoe UI Emoji"), local("Segoe UI");
@@ -8,7 +8,7 @@
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 1.6;
-  --ls-font-family: "Only Emoji", "et-book",
+  --ls-font-family: "Only Emoji", "Roboto",
     sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Fira Code", monospace;
@@ -28,7 +28,7 @@ textarea {
 }
 
 i {
-  font-family: "Only Emoji", "et-book", sans-serif;
+  font-family: "Only Emoji", "Roboto", sans-serif;
 }
 
 :root {
@@ -1215,8 +1215,8 @@ html[data-theme=dark] {
 .light-theme,
 html[data-theme=light],
 html[data-theme=white] {
-  --ct-primary-color: #106ba3;
-  --ct-secondary-color: #004174;
+  --ct-primary-color: #91bceb;
+  --ct-secondary-color: #91bceb;
   --ct-warning-color: #ff7262;
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
