@@ -1205,7 +1205,7 @@ html[data-theme=dark] {
 }
 
 .dark-theme .image-resize {
-  filter: brightness(0.8) saturate(85%);
+  filter: none;
 }
 
 .white-theme,
