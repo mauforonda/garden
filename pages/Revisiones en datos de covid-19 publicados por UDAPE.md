@@ -1,3 +1,6 @@
+tags:: exploration
+template:: exploration
+
 - Desde marzo de 2020, yo y un grupo de compañeros producimos [[Datasets abiertos sobre covid-19 en Bolivia]]. Uno de éstos es el dataset de casos por departamento, que procesamos desde reportes de la Unidad de Análisis de Políticas Sociales y Económicas (UDAPE).
 	- UDAPE publica datasets diarios y acumulados de casos confirmados, activos, recuperados y fallecidos. Muchos de estos datasets parecen redundantes cuando consideras que `casos activos` = `casos confirmados` - `casos recuperados` - `casos fallecidos`, o que `casos confirmados acumulados` son las suma acumulativa de `casos confirmados diarios`.
 	- Sin embargo, estas operaciones simples no coinciden con lo que UDAPE publica. Cada uno de estos datasets parece ser producido independientemente. Comparando las diferencias entre datos diarios y acumulados con reportes de prensa, la mejor explicación es que cambios retroactivos sólo son integrados en datasets acumulados, en particular cuando UDAPE no puede ubicar en qué fecha exactamente ocurren.
@@ -8,4 +11,4 @@
 	- LATER Debo insistir en ponerme en contacto con alguien en UDAPE para realizar estas consultas.
 	- Una primera pregunta es cuán comunes son revisiones en estos datasets. Tengo snapshots de esta base datos cada día desde finales de 2020, y podría resolver esta pregunta fácilmente.
 		- Comencé a explorar esta pregunta en [este proyecto](https://github.com/mauforonda/workshop/tree/master/20220712_covid19bo_udape). Comparo series de tiempo entre las ~466 actualizaciones que se realizaron a cada dataset hasta el [[Jul 12th, 2022]] e identifico revisiones importantes. A primera vista, las únicas revisiones significativas son las que ocurren con el cambio de sistema al final de junio de 2022, en particular para datasets acumulados.
-			- ![Actualizaciones en el dataset de decesos acumulados](https://imgz.org/i6Vf8GxM-1280.png){:height 757, :width 642}
+			- ![Actualizaciones en el dataset de decesos acumulados](https://imgz.org/i6Vf8GxM-1280.png) Más gráficos y código están [en el repositorio](https://github.com/mauforonda/workshop/tree/master/20220712_covid19bo_udape/data).
