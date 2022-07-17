@@ -1,4 +1,106 @@
 
+@article{biljeckiGlobalBuildingMorphology2022,
+  title = {Global {{Building Morphology Indicators}}},
+  author = {Biljecki, Filip and Chow, Yoong Shin},
+  date = {2022-07-01},
+  journaltitle = {Computers, Environment and Urban Systems},
+  shortjournal = {Computers, Environment and Urban Systems},
+  volume = {95},
+  pages = {101809},
+  issn = {0198-9715},
+  doi = {10.1016/j.compenvurbsys.2022.101809},
+  url = {https://www.sciencedirect.com/science/article/pii/S0198971522000539},
+  urldate = {2022-07-17},
+  abstract = {Characterising and analysing urban morphology is a continuous task in urban data science, environmental analyses, and many other domains. As the availability and quality of data on them have been increasing, buildings have gained more attention. However, tools and data facilitating large-scale studies, together with an interdisciplinary consensus on metrics, remain scarce and often inadequate. We present Global Building Morphology Indicators (GBMI) — a three-pronged contribution addressing such shortcomings: (i) a comprehensive list of hundreds of building form multi-scale measures derived through a systematic literature review; (ii) a methodology and tool for the computation of these metrics in a database suited for big data and comparative studies, and release the code freely and open-source; and (iii) we carry out the computations using high performance computing, generating a public repository with data quantifying the form of selected urban areas around the world, and demonstrate their value with novel analyses comparing morphological parameters across cities. GBMI introduces a formalised, structured, modular, and extensible method to compute, manage, and disseminate urban indicators at a large scale and high resolution, while the precomputed dataset facilitates comparative studies. The theory and implementation traverse multiple scales: at the building level, both individual and contextual ones based on encircling buildings by multiple buffers, and aggregations at several hierarchical administrative levels and at multiple grids. Our open dataset, comprising billions of records on a growing scope of urban areas worldwide, is the most comprehensive instance of morphological data parametrising the individual building stock, supporting studies in urban analytics and a range of disciplines.},
+  langid = {english},
+  keywords = {GeoAI,GIScience,Morphometrics,OpenStreetMap,Spatial analysis,Urban planning},
+  file = {/home/m/Zotero/storage/FCB6DUUR/Biljecki and Chow - 2022 - Global Building Morphology Indicators.pdf}
+}
+
+@article{boeingStreetNetworkModels2021,
+  title = {Street {{Network Models}} and {{Indicators}} for {{Every Urban Area}} in the {{World}}},
+  author = {Boeing, Geoff},
+  date = {2021},
+  journaltitle = {Geographical Analysis},
+  volume = {n/a},
+  number = {n/a},
+  issn = {1538-4632},
+  doi = {10.1111/gean.12281},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/gean.12281},
+  urldate = {2022-07-17},
+  abstract = {Cities worldwide exhibit a variety of street network patterns and configurations that shape human mobility, equity, health, and livelihoods. This study models and analyzes the street networks of every urban area in the world, using boundaries derived from the Global Human Settlement Layer. Street network data are acquired and modeled from OpenStreetMap with the open-source OSMnx software. In total, this study models over 160 million OpenStreetMap street network nodes and over 320 million edges across 8,914 urban areas in 178 countries, and attaches elevation and grade data. This article presents the study’s reproducible computational workflow, introduces two new open data repositories of ready-to-use global street network models and calculated indicators, and discusses summary findings on street network form worldwide. It makes four contributions. First, it reports the methodological advances of this open-source workflow. Second, it produces an open data repository containing street network models for each urban area. Third, it analyzes these models to produce an open data repository containing street network form indicators for each urban area. No such global urban street network indicator data set has previously existed. Fourth, it presents a summary analysis of urban street network form, reporting the first such worldwide results in the literature.},
+  langid = {english},
+  annotation = {\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/gean.12281},
+  note = {\section{Annotations\\
+(7/17/2022, 1:10:30 AM)}
+
+\par
+“It uses the Global Human Settlement Layer (GHSL) to define urban area boundaries and other variables. Using OSMnx, it downloads and models urban-scale street network data globally from OpenStreetMap, attaches elevation data, then calculates indicators for each urban area.” The data they build.
+\par
+“Across all urban areas worldwide, both total street length and intersection count scale sublinearly with population. Higher per capita GDP is associated with higher per capita total street length.” Some descriptive analysis they run on it.
+\par
+“A primal graph of a street network models intersections and dead-ends as nodes and the street segments that connect them as edges (Porta et al., 2006b). A dual graph of a street network does the opposite, modeling street segments as nodes and intersections as edges (Porta et al., 2006a).”
+\par
+“1) global coverage and availability, 2) consistent digitization and attribute data, 3) consistent representation of both geometric and topological data, and 4) better public accessibility and usability.” Areas where local street network data fails.
+\par
+“Barrington-Leigh and Millard-Ball (2017) found that, as of 2016, OpenStreetMap was 83\% complete worldwide, over 40\% of countries’ (including many”
+\par
+“developing countries) street networks were effectively 100\% complete, and completeness was highest in both dense cities and sparsely populated areas.” On the completeness of osm.
+\par
+“a recent project modeled the street networks of every US city/town, county, urbanized area, census tract, and Zillow-defined neighborhood, placed these models online in a public open data repository, and conducted spatial network analyses on them (Boeing, 2020a).” Usage examples of OSMnx to create streen network indicators.
+\par
+“Similarly, Dingil et al. (2018) used OSMnx to calculate transportation indicators for 151 urban areas worldwide. Karduni et al. (2016) created a data repository with 80 worldwide cities’ street networks derived from OpenStreetMap data. da Cruz et al. (2020) developed a database of urban indicators across 58 metropolitan areas worldwide, but did not include street network form indicators. Barrington-Leigh and Millard-Ball (2019, 2020) used all the streets mapped in OpenStreetMap to generate global indicators of street network disconnectivity to explore cross-sectional and longitudinal trends in urban sprawl.”
+\par
+“spatial boundaries derived from the publicly available GHSL Urban Centre Database1 (UCD) version 2019a 1.2, a project supported by the European Commission’s Joint Research Centre and DirectorateGeneral for Regional and Urban Policy (Florczyk et al., 2019). In addition to these urban area boundaries, the UCD provides attribute data such as the names of the country and core city, population, built-up area, gross domestic product (GDP), UN income class and development group, transport-sector emissions, particulate matter concentration, climate, and land use efficiency.” On the source of spatial boundary data.
+\par
+“the UCD consists of “high-density clusters of contiguous grid cells of 1 km2 with a density of at least 1,500 inhabitants per km2 and a minimum population of 50,000” (Florczyk et al., 2019, p. 13).” the UCD is built with population data from censuses and satellite imagery.
+\par
+“three conditions: 1) is marked “true positive” in the UCD, 2) has ≥ 1 km2 built-up area, and 3) includes at least three OpenStreetMap drivable street network nodes within its boundaries. This comprises 8,914 total urban areas.” On how the author selects urban areas for which to create street networks.
+\par
+“This study models these street networks as nonplanar directed multigraphs with possible self-loops. All of these models are primal graphs to account for the full geographic characteristics of the street network (Ratti, 2004; Batty, 2005). The workflow retains all graph components even if they are not fully connected and is parameterized to retrieve all public drivable streets” The data they select from osm and the graph they make with it.
+\par
+“Raw OpenStreetMap data represent nodes as geometric vertices of straight-line segments composing more complex lines. Simplification produces a model that corresponds better to graph theory and transportation geography with nodes representing intersections and dead-ends and edges representing street segments.” How they process these data to produce clean graphs.
+\par
+“the Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) v2 and the Shuttle Radar Topography Mission (SRTM). The ASTER DEM covers the world from 83° N to 83° S at a spatial resolution of one arcsecond (roughly 30 meters at the equator). The SRTM DEM covers the world from 60° N to 56° S at a spatial resolution of three arcseconds (roughly 90 meters at the equator). The ASTER DEM is finer resolution but exhibits more noise. The SRTM DEM is coarser resolution but less noisy, and was further processed by CGIAR-CSI to fix errors and fill voids (Gorokhovich and Voustianiouk, 2006).” The sources of elevation data.
+\par
+“It selects for each node whichever of the ASTER or SRTM elevation values has the least absolute difference from the corresponding Google value, as a validation reference point.” They treat google elevation data as the most reliable, but closed source, and select whichever open source approximates closer to it.
+\par
+“The circuity indicator is the graph’s ratio of street lengths to straight-line distances between adjacent nodes, and straightness is its inverse. The former measures how circuitous the street network is on average, whereas the latter measures how closely its streets approximate straight lines (Boeing, 2021).”
+\par
+“The elev\_mean, elev\_median, elev\_std, elev\_iqr, and elev\_range represent the calculated mean, median, standard deviation, interquartile range, and range of node elevations, in meters. These provide indicators of the topography underlying the network”
+\par
+“The grade\_mean and grade\_median fields represent the calculated mean and median street grade absolute values.”
+\par
+“The intersect\_count indicator represents the number of street intersections in the urban area—that is, the number of nodes with more than two incident edges in an undirected representation of the graph”
+\par
+“The intersect\_count\_clean indicator is calculated by merging intersections within 10 meter buffers of each other geometrically (i.e., 10 meter Euclidean radii) before counting them”
+\par
+“The intersect\_count\_clean\_topo indicator is calculated by merging intersections within 10 meters of each other topologically along the network. This prevents topologically remote but spatially proximate nodes from being merged.”
+\par
+“Clustering coefficients measure the extent to which a node’s neighbors form a complete graph (Jiang and Claramunt, 2004; Opsahl and Panzarasa, 2009)”
+\par
+“The pagerank\_max indicator is the maximum PageRank value of any node in the urban area: PageRank ranks nodes’ importance based on the structure of their links (Agryzkov et al., 2012; Boeing, 2020a).”
+\par
+“The self\_loop\_proportion measures the urban area’s proportion of physical street segments that self-loop.”
+\par
+“The k\_avg indicator represents the average node degree of the undirected representation of the graph”
+\par
+“The length\_mean and length\_median indicators are the calculated mean and median physical street segment (i.e., undirected edge) lengths in meters,”
+\par
+“The street\_segment\_count and node\_count fields contain the counts of physical street segments and nodes respectively.”
+\par
+“The prop\_4way, prop\_3way, and prop\_deadend fields contain the proportions of nodes in the graph that represent four-way intersections, three-way intersections, and culs-de-sac respectively.”
+\par
+“The orientation\_entropy and orientation\_order indicators represent the calculated entropy of street bearings and their linearized and normalized order, as developed in Boeing (2019).”
+\par
+“Barrington-Leigh and Millard-Ball (2017) note that OpenStreetMap was particularly incomplete in China as of 2016 due to restrictions”
+\par
+“the elevation data are validated by comparing the ASTER, SRTM, and Google values for each node. Across all 37 million nodes worldwide, the elevation values between these three sources exhibit high correlation (all r {$>$} 0.999, p {$<$} 0.001).”
+\par
+“we compare our street networks’ elev\_mean indicator with the UCD’s estimated average elevation for each urban area. They strongly correlate (r {$>$} 0.999, p {$<$} 0.001) and the median difference between the two is 16 centimeters”},
+  file = {/home/m/Zotero/storage/BC7IWQJQ/boeing-global-models-indicators.pdf}
+}
+
 @inproceedings{jerniteDataGovernanceAge2022,
   title = {Data {{Governance}} in the {{Age}} of {{Large-Scale Data-Driven Language Technology}}},
   booktitle = {2022 {{ACM Conference}} on {{Fairness}}, {{Accountability}}, and {{Transparency}}},
