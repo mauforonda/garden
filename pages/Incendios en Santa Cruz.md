@@ -1,0 +1,12 @@
+description:: Cuál es la trayectoria actual de incendios en Santa Cruz y cómo se compara con otros años
+tags:: #dataviz
+last_updated:: [[Jul 17th, 2022]]
+
+- El gráfico al [[Jul 17th, 2022]] ![incendios en Santa Cruz](https://imgz.org/i3Mw3PDz.png)
+  :LOGBOOK:
+  CLOCK: [2022-07-17 Sun 16:45:29]--[2022-07-17 Sun 16:45:29] =>  00:00:00
+  :END:
+- [Código](https://github.com/mauforonda/workshop/tree/master/20220715_incendios)
+- Cada año, el número de incendios en Santa Cruz incrementa dramáticamente entre los meses de junio y octubre. Luego de los desastres observados en 2019, el año con más incendios registrados hasta el momento, es común escuchar cómo extensiones imposibles de imaginar y las miles de vidas que habitan en ellas se consumen en el fuego. La dimensión del sufrimiento en esta tragedia es un reto a la imaginación. Como en otras ocasiones, mi reacción es construir instrumentos con datos que me ayuden a retar este vértigo. Dos puntos de partida serían responder _cuál es la trayectoria actual de incendios?_ y _cómo se compara con otros años?_ En este gráfico, utilizo datos del instrumento VIIRS en el satélite SNPP para reconstruir la tendencia de incendios en Santa Cruz desde 2012, el primer año del cual este instrumento publica datos. Colocar cada serie anual sobre el mismo eje permite observar patrones y diferencias entre años y, en particular, responder dónde nos encontramos actualmente.
+	- El gráfico ha sido construido en #python y todo el código necesario para reproducirlo, actualizarlo o modificarlo se encuentra en [su repositorio](https://github.com/mauforonda/workshop/tree/master/20220715_incendios). El código está escrito y documentado para ayudar a entender cuál es el proceso que produce el gráfico paso a paso y su razonamiento por detrás.
+	- Existe bastante atención colocada en detalles como la posición correcta de anotaciones y la armonía de colores, fuentes y figuras. El objetivo es lograr una lectura rápida y correcta, y al mismo tiempo evocar la tensión en la que toma forma esta necesidad de información. La impotencia de ver cómo aparecen más incendios y parece que no podemos hacer nada al respecto. Una flama que lentamente espera consumir la vida de la amazonía.

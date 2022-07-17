@@ -1,3 +1,5 @@
+tags:: #exploration
+
 - Préstamo del BID para mejorar la calidad estadística en Bolivia. [Ésta](https://www.iadb.org/es/project/BO-L1220) es la página web, con una descripción corta y algunos documentos, incluyendo [el perfil](https://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=EZSHARE-557953943-1) y [la propuesta del proyecto](https://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=EZSHARE-557953943-27). Fue aprobado el 12 de abril y firmado el 4 de mayo de 2022.
 - Algunos documentos importantes son
 	- la [Propuesta del proyecto](https://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=EZSHARE-557953943-27) `pdf`

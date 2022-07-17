@@ -1,4 +1,4 @@
-title:: The lifespan of a notebook.
+title:: The lifespan of a notebook
 
 - I've been taking notes very regularly for more than a decade in multiple _very_ short-timed notebooks. The lifespan of a notebook consists of:
 	- I realize that I need to nurture some internal dialogue to think clearly.

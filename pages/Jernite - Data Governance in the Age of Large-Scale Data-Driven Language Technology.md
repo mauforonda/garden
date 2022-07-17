@@ -1,6 +1,6 @@
 article_title:: Data Governance in the Age of Large-Scale Data-Driven Language Technology
 citekey:: jerniteDataGovernanceAge2022
-tags:: Article
+tags:: #Article 
 status::
 
 - Abstract:

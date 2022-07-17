@@ -1,3 +1,5 @@
+tags:: #exploration
+
 - El gobierno boliviano esperaba realizar un censo de población y vivienda a fines de 2022. Sin embargo, luego de una reunión con el Consejo Nacional de Autonomías a mitad de julio, decidieron postergarlo para otro año. El razonamiento detrás de esta decisión no es público.
 	- Considerando [las fuentes de riesgo que lista el BID en su propuesta de préstamo](((62d03dc0-f921-4eb5-9647-32eb8b47dc27))) la explicación más probable parece ser una debilidad de gobernanza con autoridades locales.
 - El financiamiento del proyecto era de 68 Millones de dólares, 40 de los cuales venían de FONPLATA y 28 de [[BO-L1220 Programa de Fortalecimiento del Sistema Estadístico del Estado Plurinacional de Bolivia]] gestionado por el BID. Gracias a la participación del BID, tenemos un desglose bastante detallado de los costos del censo:

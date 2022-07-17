@@ -1,45 +1,142 @@
-[{:block/name "a",
+[{:block/name "62d05637-fa4b-455c-8c70-42769b9a2997",
+  :block/created-at 1657827798181,
+  :block/updated-at 1657827798181}
+ {:block/name "62d05dcd-28b0-4202-9679-a9ae76543762",
+  :block/created-at 1657828026312,
+  :block/updated-at 1657828026312}
+ {:block/name "a",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "arguments for open data",
   :block/created-at 1657579657839,
   :block/updated-at 1657579657839}
+ {:block/name "article",
+  :block/created-at 1658032200713,
+  :block/updated-at 1658032200713}
  {:block/name "b",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name
+  "bo-l1220 programa de fortalecimiento del sistema estadístico del estado plurinacional de bolivia",
+  :block/created-at 1657811853444,
+  :block/updated-at 1657831961174}
+ {:block/name
+  "boeing - street network models and indicators for every urban area in the world",
+  :block/created-at 1658032507348,
+  :block/updated-at 1658039446894}
  {:block/name "c",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "card",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "censo de población y vivienda 2022",
+  :block/created-at 1657809475464,
+  :block/updated-at 1657832016038}
+ {:block/name "citation template",
+  :block/created-at 1657741532124,
+  :block/updated-at 1658032530702}
  {:block/name "contents",
   :block/created-at 1657563989307,
-  :block/updated-at 1657580372821}
+  :block/updated-at 1658093827723}
+ {:block/name "data you could access if you were a serious researcher",
+  :block/created-at 1657663880052,
+  :block/updated-at 1657663880052}
+ {:block/name "data.europa.eu",
+  :block/created-at 1658035141501,
+  :block/updated-at 1658035141501}
+ {:block/name "data.europa.eu/89h",
+  :block/created-at 1658035141502,
+  :block/updated-at 1658035141502}
+ {:block/name
+  "data.europa.eu/89h/53473144-b88c-44bc-b4a3-4583ed1f547e",
+  :block/created-at 1658035141499,
+  :block/updated-at 1658035141499}
+ {:block/name "dataset",
+  :block/created-at 1657660712146,
+  :block/updated-at 1657660712146}
+ {:block/name "datasets abiertos sobre covid-19 en bolivia",
+  :block/created-at 1658094172007,
+  :block/updated-at 1658094172007}
+ {:block/name "dataviz",
+  :block/created-at 1658090792184,
+  :block/updated-at 1658090792184}
  {:block/name "doing",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "done",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "exploration",
+  :block/created-at 1657730992577,
+  :block/updated-at 1657730992577}
  {:block/name "favorites",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "how to host, link and maybe display static files here",
+  :block/created-at 1657637093057,
+  :block/updated-at 1657732678426}
  {:block/name "in-progress",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "incendios en santa cruz",
+  :block/created-at 1658090666390,
+  :block/updated-at 1658094086640}
+ {:block/name "international men and gender equality survey",
+  :block/created-at 1657658993033,
+  :block/updated-at 1657663476852}
+ {:block/name
+  "jernite - data governance in the age of large-scale data-driven language technology",
+  :block/created-at 1657743000978,
+  :block/updated-at 1657743043246}
  {:block/name "jul 11th, 2022",
   :block/created-at 1657562117223,
   :block/updated-at 1657579964737}
  {:block/name "jul 12th, 2022",
   :block/created-at 1657598401636,
-  :block/updated-at 1657631562744}
+  :block/updated-at 1657663880053}
+ {:block/name "jul 13th, 2022",
+  :block/created-at 1657684801825,
+  :block/updated-at 1657743350470}
+ {:block/name "jul 14th, 2022",
+  :block/created-at 1657771204174,
+  :block/updated-at 1657854373200}
+ {:block/name "jul 15th, 2022",
+  :block/created-at 1657857600767,
+  :block/updated-at 1658090673444}
+ {:block/name "jul 16th, 2022",
+  :block/created-at 1657978310653,
+  :block/updated-at 1658026950578}
+ {:block/name "jul 17th, 2022",
+  :block/created-at 1658030402248,
+  :block/updated-at 1658039492907}
+ {:block/name "jun 21st, 2022",
+  :block/created-at 1657740049640,
+  :block/updated-at 1657740049640}
  {:block/name "later",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "monitoreo",
+  :block/created-at 1658090996967,
+  :block/updated-at 1658090996967}
  {:block/name "now",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "possible directions",
+  :block/created-at 1658092990076,
+  :block/updated-at 1658093130106}
+ {:block/name "python",
+  :block/created-at 1658025978748,
+  :block/updated-at 1658025978748}
+ {:block/name "random project ideas",
+  :block/created-at 1657632972444,
+  :block/updated-at 1657632972444}
+ {:block/name "revisiones en datos de covid-19 publicados por udape",
+  :block/created-at 1657687431043,
+  :block/updated-at 1657735035888}
+ {:block/name "spatial analytics + data seminar series",
+  :block/created-at 1658026420725,
+  :block/updated-at 1658026936561}
  {:block/name "the lifespan of a notebook.",
   :block/created-at 1657575573126,
   :block/updated-at 1657575573548}
@@ -49,12 +146,18 @@
  {:block/name "todo",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "urban science",
+  :block/created-at 1658025979061,
+  :block/updated-at 1658025979061}
  {:block/name "wait",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
  {:block/name "waiting",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "walking notes",
+  :block/created-at 1658025979060,
+  :block/updated-at 1658025979060}
  {:block/name "why not write a public notebook",
   :block/created-at 1657595853059,
   :block/updated-at 1657596103419}
