@@ -2,7 +2,7 @@ article_title:: Street Network Models and Indicators for Every Urban Area in the
 article_author:: Boeing
 article_date:: 2021
 citekey:: boeingStreetNetworkModels2021
-tags:: Article
+tags:: Article, Urban science
 status::
 
 - Abstract:
