@@ -1156,8 +1156,8 @@ html[data-theme=dark] #app-container::before {
 
 .dark-theme,
 html[data-theme=dark] {
-  --ct-primary-color: #a3cef1;
-  --ct-secondary-color: #6096ba;
+  --ct-primary-color: #4eadfa;
+  --ct-secondary-color: #89a9be;
   --ct-warning-color: #ff7262;
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #d3a400;
@@ -1206,8 +1206,8 @@ html[data-theme=dark] {
 .light-theme,
 html[data-theme=light],
 html[data-theme=white] {
-  --ct-primary-color: #91bceb;
-  --ct-secondary-color: #91bceb;
+  --ct-primary-color: #3596e4;
+  --ct-secondary-color: #89a4c2;
   --ct-warning-color: #ff7262;
   --ct-success-color: #0dcf82;
   --ct-highlight-color: #ffc600;
