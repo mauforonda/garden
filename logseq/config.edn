@@ -201,7 +201,7 @@
  :ref/linked-references-collapsed-threshold 50
 
  :favorites ["How to take dummy notes?"]
- :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 3}, :parentheses {:counts 2}, :command {:counts 1}, :calendar {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 2}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 0}, :brackets {:counts 4}, :italic {:counts 0}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
+ :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 4}, :parentheses {:counts 2}, :command {:counts 1}, :calendar {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 3}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 0}, :brackets {:counts 4}, :italic {:counts 0}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
  :graph/settings {:journal? true}
  :ui/show-brackets? false
  :zotero/settings-v2 {"default" {:notes-block-text "Notes", :extra-tags "Article", :attachments-block-text "Attachments", :include-attachments? false, :overwrite-mode? true, :page-insert-prefix "", :type-id "8543248"}}
