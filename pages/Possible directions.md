@@ -1,1 +1,2 @@
+- {{query [[Random project ideas]] }}
 - {{query (task now later) }}

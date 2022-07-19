@@ -1,0 +1,32 @@
+tags:: #exploration
+
+- Las entidades relevantes son
+	- Ministerio de justicia y transparencia institucional
+	- Ministerio de gobierno
+	- Tribunal supremo de justicia
+	- Tribunal agroambiental
+	- Consejo de la magistratura
+	- Dirección administrativa del órgano judicial
+	- AGETIC
+- Sobre sistemas de información
+	- Intentando crear un inventario de sistemas de información, encuentro demasiados proyectos con objetivos estrechos y repetidos. Como si por demasiado tiempo, cada vez que alguien tenía un requerimiento nuevo dentro de una entidad, algo nuevo terminaba implementándose de manera independiente a lo que ya se había construido.
+		- Por ejemplo, la última [rendición de cuentas](https://daf.organojudicial.gob.bo/Documentos/rendicion2022.pdf) `pdf` de la Dirección administrativa (Mayo, 2022) lista 67 sistemas que deben mantener. Algunos sistemas tienen varias versiones que parecen mantener en paralelo como _Temis_ y _Temis Fast_, ambos sistemas de administración de inmuebles de Derechos Reales.
+		- Esta situación podría indicar grandes costos de coordinación dentro y entre entidades. Resulta más barato invertir en crear un nuevo sistema que extender o coordinar la integración de uno ya implementado. Y es menos costoso mantener varias versiones que coordinar una migración oportuna.
+		- Ocasionalmente, el gobierno admite esta situación en público. Por ejemplo, el reciente convenio de [cooperación inter-institucional](https://tsj.bo/wp-content/uploads/2022/04/PROYECTO-DE-CONVENIO-TODOS-revisado-2-sinTCP-Y-MP.pdf) `pdf` para crear un nuevo sistema de gestión de causas (Abril, 2022) habla sobre el fracaso de iniciativas de gobierno digital en el sistema judicial: _Iniciativas y desarrollos aislados, normativa obsoleta, incorporación de herramientas tecnológicas sin contemplar la re-ingeniería de los procesos, procedimientos y cambios de estructuras organizacionales, falta de un liderazgo tecnológico, escasa formación y asimilación en las herramientas tecnológicas a operadores de justicia_.
+	- Como en otras entidades, cada sistema cuenta una historia sobre la cultura del equipo técnico y las limitaciones de la institución en un momento específico.
+		- La mayoría de los sistemas prestan sus nombres de dioses antiguos, iniciando por ianus, el dios romano de los comienzos, en 1999 y siguiendo con mercurio, apolo, tritón y decenas de otros más.
+		- Los primeros sistemas, casi todos ya fuera de servicio, reflejan su naturaleza como iniciativas de la cooperación internacional: empresas privadas trabajando con tecnologías propietarias en proyectos difíciles de extender.
+		- Una ola más reciente de sistemas crece desde los pequeños equipos de jóvenes desarrolladores en cada entidad quienes, usualmente desde Sucre, intentan complacer cada pequeño requerimiento usando lo que tienen a disposición. Diversidad e improvisación.
+		- Finalmente, desde al menos 2018, aparecen nuevos sistemas creados por AGETIC que destacan por integrar iniciativas de interoperabilidad, como ciudadanía digital, y estar estructurados de manera más consistente, segura y moderna.
+	- En 2019, la promulgación de la Ley 1173 de _abreviación procesal penal y fortalecimiento de la lucha integral contra la violencia a niñas, niños, adolescentes y mujeres_ crea las condiciones institucionales para invertir en sistemas más ambiciosos.
+		- El objetivo inicial es implementar un sistema de gestión de causas penales para la nueva Oficina Gestora de Procesos. Si bien por unos años, las causas pasaban por una coordinación entre [éforo](https://eforo.organojudicial.gob.bo/) y [sirej](http://magistratura.organojudicial.gob.bo/sirej), [dificultades de interoperabilidad](https://tsj.bo/wp-content/uploads/2021/12/ACTA-DE-ENTENDIMIENTO-ENTRE-EL-TSJ-Y-EL-CM.pdf) `pdf` y la aparente falta de gestión en el equipo del Consejo de la magistratura, hacen que AGETIC asuma [la dirección de un nuevo sistema](https://tsj.bo/wp-content/uploads/2022/04/PROYECTO-DE-CONVENIO-TODOS-revisado-2-sinTCP-Y-MP.pdf) `pdf`.
+		- Según la convocatoria para la consultoría individual en línea (CUCE `22-0660-03-1224233-1-1`, Mayo de 2022), el sistema debería ser entregado en diciembre de 2022. Los términos de referencia hablan poco de lo que deberíamos esperar en diciembre, excepto que las tecnologías a utilizarse reflejan un stack común en AGETIC: vue.js + nest.js .
+- Sobre qué información gestionan estos sistemas y _probablemente_ debería ser más accesible
+	- La Unidad nacional de estudios técnicos y estadísticos en el Consejo de la Magistratura, produce cada año desde 2012 anuarios estadísticos judiciales. Si bien el nivel de desagregación no es ideal y el formato son tablas, gráficos y mapas en un PDF gigante, ésta es la fuente más completa de información estadística del sistema judicial.
+		- [Listado](http://magistratura.organojudicial.gob.bo/index.php/institucion/2013-05-07-16-03-21/viewcategory/19) de anuarios desde 2012 hasta 2021.
+		- Según el anuario de 2021, la fuente es una combinación de consultas a sistemas de seguimiento de causas y gestión procesal, más respuestas a formularios enviados a salas, juzgados y conciliadores en todo el país.
+		- Extraer estos datos de los pdf's hacia una forma más apta para ser reutilizada es un trabajo extremadamente manual, resolviendo cientos de casos diferentes página tras página. Reproducir esta labor para los anuarios desde 2012 no parece una tarea muy entretenida, incluso si la recompensa serían series de tiempo de detalles importantes en la realidad judicial del país.
+		- LATER Lo mínimo que debería hacer es extraer la lista de tablas y gráficos en cada anuario, e intentar consolidarlos para saber qué datos están presentes en qué años.
+	- La Fundación Construir publica cada año su Informe del estado de la justicia en Bolivia que recoje datos de otras fuentes como rendiciones de cuentas y solicitudes de información. Al igual que los anuarios, estos informes congelan datos en tablas dentro de pdf's. Sería interesante, luego de realizar un inventario de los datos en anuarios, compararlos con los datos en estos informes para comprender cuál es la contribución de la fundación en cuanto a datos del sistema judicial.
+- Sitios para actualizaciones
+	- [Listado cronológico](https://tsj.bo/wp-json/wp/v2/media?per_page=10&mime_type=application/pdf) `json` de documentos PDF en el sitio del Tribunal Supremo de Justicia.
