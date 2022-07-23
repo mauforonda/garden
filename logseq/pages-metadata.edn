@@ -46,9 +46,12 @@
  {:block/name "citation template",
   :block/created-at 1657741532124,
   :block/updated-at 1658032530702}
+ {:block/name "ciudad de la paz",
+  :block/created-at 1658250850855,
+  :block/updated-at 1658250850855}
  {:block/name "contents",
   :block/created-at 1657563989307,
-  :block/updated-at 1658093827723}
+  :block/updated-at 1658288285464}
  {:block/name "data you could access if you were a serious researcher",
   :block/created-at 1657663880052,
   :block/updated-at 1657663880052}
@@ -83,6 +86,9 @@
  {:block/name "favorites",
   :block/created-at 1657563989307,
   :block/updated-at 1657563989307}
+ {:block/name "feria del libro en la paz",
+  :block/created-at 1658587229505,
+  :block/updated-at 1658587229505}
  {:block/name "how to host, link and maybe display static files here",
   :block/created-at 1657637093057,
   :block/updated-at 1657732678426}
@@ -92,6 +98,9 @@
  {:block/name "incendios en santa cruz",
   :block/created-at 1658090666390,
   :block/updated-at 1658094086640}
+ {:block/name "información en el sistema judicial boliviano",
+  :block/created-at 1658207367396,
+  :block/updated-at 1658211957316}
  {:block/name "international men and gender equality survey",
   :block/created-at 1657658993033,
   :block/updated-at 1657663476852}
@@ -122,7 +131,22 @@
   :block/updated-at 1658039492907}
  {:block/name "jul 18th, 2022",
   :block/created-at 1658156391614,
-  :block/updated-at 1658180053560}
+  :block/updated-at 1658207545650}
+ {:block/name "jul 19th, 2022",
+  :block/created-at 1658203203888,
+  :block/updated-at 1658288376501}
+ {:block/name "jul 20th, 2022",
+  :block/created-at 1658332842559,
+  :block/updated-at 1658363637469}
+ {:block/name "jul 21st, 2022",
+  :block/created-at 1658407577055,
+  :block/updated-at 1658407577055}
+ {:block/name "jul 22nd, 2022",
+  :block/created-at 1658499928762,
+  :block/updated-at 1658532386184}
+ {:block/name "jul 23rd, 2022",
+  :block/created-at 1658586438222,
+  :block/updated-at 1658597274910}
  {:block/name "jun 21st, 2022",
   :block/created-at 1657740049640,
   :block/updated-at 1657740049640}
@@ -137,7 +161,7 @@
   :block/updated-at 1657563989307}
  {:block/name "possible directions",
   :block/created-at 1658092990076,
-  :block/updated-at 1658093130106}
+  :block/updated-at 1658193230199}
  {:block/name "python",
   :block/created-at 1658025978748,
   :block/updated-at 1658025978748}
@@ -146,10 +170,13 @@
   :block/updated-at 1657632972444}
  {:block/name "revisiones en datos de covid-19 publicados por udape",
   :block/created-at 1657687431043,
-  :block/updated-at 1657735035888}
+  :block/updated-at 1658252388067}
+ {:block/name "situaciones cotidianas para estudiar",
+  :block/created-at 1658254106070,
+  :block/updated-at 1658254106070}
  {:block/name "some useful page categories",
   :block/created-at 1658156391898,
-  :block/updated-at 1658156391898}
+  :block/updated-at 1658287920637}
  {:block/name "spatial analytics + data seminar series",
   :block/created-at 1658026420725,
   :block/updated-at 1658159142166}
